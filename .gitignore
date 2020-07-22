@@ -1,0 +1,16 @@
+.vs/
+bin/
+obj/
+
+src/Basket/Basket.API/bin/
+src/Basket/Basket.API/obj/
+src/Basket/Basket.API/appsettings.json
+src/Basket/Basket.API/appsettings.Development.json
+
+src/Catalog/Catalog.API/bin/
+src/Catalog/Catalog.API/obj/
+src/Catalog/Catalog.API/appsettings.json
+src/Catalog/Catalog.API/appsettings.Development.json
+src/Common/EventBusRabbitMQ/bin/
+src/Common/EventBusRabbitMQ/obj/
+
