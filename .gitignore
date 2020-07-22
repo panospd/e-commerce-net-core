@@ -11,6 +11,21 @@ src/Catalog/Catalog.API/bin/
 src/Catalog/Catalog.API/obj/
 src/Catalog/Catalog.API/appsettings.json
 src/Catalog/Catalog.API/appsettings.Development.json
+
+src/Ordering/Ordering.API/bin/
+src/Ordering/Ordering.API/obj/
+src/Ordering/Ordering.API/appsettings.json
+src/Ordering/Ordering.API/appsettings.Development.json
+
+src/Ordering/Ordering.Core/bin/
+src/Ordering/Ordering.Core/obj/
+
+src/Ordering/Ordering.Infrastructure/bin/
+src/Ordering/Ordering.Infrastructure/obj/
+
+src/Ordering/Ordering.Application/bin/
+src/Ordering/Ordering.Application/obj/
+
 src/Common/EventBusRabbitMQ/bin/
 src/Common/EventBusRabbitMQ/obj/
 
