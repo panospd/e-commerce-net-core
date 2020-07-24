@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "RUN",
+            "type": "shell",
+            "command": "bash ./buildScripts/run.sh",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true,
+            }
+        },
+    ]
+}
