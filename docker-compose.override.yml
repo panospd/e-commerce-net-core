@@ -3,19 +3,19 @@ version: '3.4'
 services:
   catalogdb:
     container_name: catalogdb
-    restart: always
+    restart: unless-stopped
     volumes:
       - ${WEBAPP_STORAGE_HOME}/site:/data/db
     ports:
       - "27017:27017"
   basketdb:
     container_name: basketdb
-    restart: always
+    restart: unless-stopped
     ports:
       - "6379:6379"
   rabbitmq:
     container_name: rabbitmq
-    restart: always
+    restart: unless-stopped
     ports:
       - "5672:5672"
       - "15672:15672"

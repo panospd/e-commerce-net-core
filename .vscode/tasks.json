@@ -4,7 +4,7 @@
         {
             "label": "RUN",
             "type": "shell",
-            "command": "bash ./buildScripts/run.sh",
+            "command": "docker-compose -f docker-compose.yml -f docker-compose.override.yml up --build",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
