@@ -5,7 +5,7 @@ using Ordering.Core.Repositories.Base;
 
 namespace Ordering.Core.Repositories
 {
-    interface IOrderRepository : IRepository<Order>
+    public interface IOrderRepository : IRepository<Order>
     {
         Task<IEnumerable<Order>> GetOrdersByUsername(string username);
     }
