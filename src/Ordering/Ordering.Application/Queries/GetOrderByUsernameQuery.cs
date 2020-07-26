@@ -12,7 +12,5 @@ namespace Ordering.Application.Queries
         }
 
         public string Username { get; }
-
-
     }
 }
