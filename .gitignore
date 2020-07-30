@@ -8,6 +8,9 @@ src/Basket/Basket.API/obj/
 src/Catalog/Catalog.API/bin/
 src/Catalog/Catalog.API/obj/
 
+src/WebApp/AspnetRunBasics/bin/
+src/WebApp/AspnetRunBasics/obj/
+
 src/Ordering/Ordering.API/bin/
 src/Ordering/Ordering.API/obj/
 
